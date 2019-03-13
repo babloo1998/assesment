@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding:0px; 
+
+}
+nav
+{
+	display: flex;
+	width: 90%;
+	margin-left: 70px;
+	margin-right: 70px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	justify-content: space-between;
+}
+nav ul li{
+	display: inline-block;
+	padding-right: 10px;
+	margin-top: 30px; 
+	color: #7d7d7f;
+	border-right: 1px solid grey; 
+}
+nav .nav-bar li:last-child{
+	border-right: none;
+	padding-left: 10px;
+}
+li strong{
+	color: #69696b;
+	padding-right: 5px;	
+}
+.banner{
+	background-image: url("images/background-img.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.wrapper{
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 70px;
+	margin-right: 70px;
+	width: 90%;
+	margin: auto;
+	justify-content: space-between;
+}
+.content{ 
+	width: 60%;
+	margin-top: 84px;
+}
+.contact{
+	background-color: white;
+	opacity: 0.8;
+	width: 35%;
+	margin-top: 30px;
+}
+p{
+   font-family: 'Abel', sans-serif;
+   font-size: 44pt;
+   color:white; 
+}
+.price{
+	font-size: 33pt;
+	margin-top: 44px;
+}
+.price span{
+    font-size: 36pt;
+}
+.price strong{
+	font-size: 20pt;
+	font-weight: lighter;
+}
+.wrapper-1{
+	width: 85%;
+	text-align: center;
+	margin: auto;	
+}
+.wrapper-1 span{
+	font-size: 24pt;
+	color: rgba(105, 105, 107, 255);
+	padding-top: 26px;
+	display: inline-block;
+	font-family: 'Abel', sans-serif;
+}
+input{
+	display: block;
+	width: 100%;
+	margin-top: 25px;
+	height: 25px;
+	border: none;
+	border-bottom: 1px solid #b091aa;
+}
+.wrapper-1 p{
+ 	font-size: 15pt;
+    color: rgba(231, 109, 0, 255);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-top: 10px;
+}
+input::placeholder{
+	font-size: 14pt;
+	color: rgba(123, 123, 123, 255);
+}
+form button{
+	border: none;
+	height: 48px;
+	width: 210px;
+	background-color: #198819;
+	font-size: 20pt;
+	margin-top: 25px;
+    color: rgba(255, 255, 255, 255);
+    margin-bottom: 25px;
+}
+.foot img{
+	margin-top: 20px;
+}
+.foot{
+	background: white;
+	width: 100%;
+	margin-top: 34px;
+	display: flex;
+}
+.foot .features .img-heading{
+	display: inline-block;
+	font-size: 15pt;
+    color: rgba(0, 0, 0, 255);
+    margin-top: 10px;
+}
+.foot .description{
+	font-size: 12pt;
+	color: rgba(0, 0, 0, 255);
+	margin-top: 10px;
+}
+.foot .features{
+	width: 25%;
+	text-align: center;
+	position: relative;
+}
+.features:after{
+	content: "";
+    background-color: #ec3124;
+    width: 10%;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    top:85px;
+    transform: translate(-50%)
+}
